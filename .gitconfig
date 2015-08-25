@@ -1,0 +1,12 @@
+[filter "lfs"]
+	clean = git-lfs clean %f
+	smudge = git-lfs smudge %f
+	required = true
+
+[http]
+proxy = http://proxy.ebiz.verizon.com:80
+[https]
+proxy = http://proxy.ebiz.verizon.com:80
+[user]
+	name = sarath5140
+	email = Tirumalareddy.SarathChandra@one.verizon.com
